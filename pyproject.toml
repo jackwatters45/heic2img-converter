@@ -1,0 +1,10 @@
+[project]
+dependencies = ["tqdm>=4.65.0", "pillow>=10.0.0", "pillow-heif>=0.13.0"]
+description = "Simple CLI tool to convert HEIC files to JPG, PNG, or WebP"
+name = "heic2img-converter"
+readme = "README.md"
+requires-python = ">=3.11.10"
+version = "0.1.0"
+
+[project.scripts]
+heic2img = "heic2img:main"
