@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock, call
-from heic2img import convert_heic, main, check_dependencies
+from heic2img.main import convert_heic, main, check_dependencies
 
 
 @pytest.fixture # type: ignore
