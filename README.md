@@ -108,6 +108,10 @@ heic2img /path/to/heic/files -f webp -q 40 -m 1000 --max-file-size 1.0
 - pillow-heif
 - tqdm
 
+## Roadmap
+
+- [ ] AI naming for output folders
+
 ## License
 
 MIT
